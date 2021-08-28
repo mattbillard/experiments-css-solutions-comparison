@@ -2,6 +2,10 @@
 NOTES: 
 This classname will be transformed via webpack to something like "typed-module__typed-button__abc12". You can see this if you inspect the HTML
 Once you import it into your component, it'll be available with auto-complete as styles.typedButton
+- Pros
+  - You can write CSS like you always have as CSS and in a separate file
+  - TypeScript offers autocomplete and type-checking
+  - Prevents global CSS unless you specifically ask for it
 */
 .typed-button {
   background-color: lightskyblue;

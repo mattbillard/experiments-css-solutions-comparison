@@ -5,7 +5,7 @@ body {
 
 /* NOTE: the problem with untyped CSS is if another team also uses the same classname, the styles will conflict */
 .traditional-button {
-  background-color: blue;
+  background-color: #007bff;
   border-radius: 0.25rem;
   border: 0px;
   color: #fff;
