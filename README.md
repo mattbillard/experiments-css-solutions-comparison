@@ -1,51 +1,22 @@
-# react-webpack-with-everything8
+# Typed CSS Modules vs Traditional/Untyped CSS
 
-Empty project.
+Demo of typed CSS modules versus traditional/untyped CSS. Search for "NOTE" in this project for details on how it works.
 
-## Building and running on localhost
+## Prerequisites
+- Node v12+
 
-First install dependencies:
+## Setup
+- `npm install`
 
-```sh
-npm install
-```
+## Run
+- `npm start`
+- Open `http://localhost:3000/` in your browser
 
-To run in hot module reloading mode:
-
-```sh
-npm start
-```
-
-To create a production build:
-
-```sh
-npm run build-prod
-```
-
-To create a development build:
-
-```sh
-npm run build-dev
-```
-
-## Running
-
-Open the file `dist/index.html` in your browser
-
-## Testing
-
-To run unit tests:
-
-```sh
-npm test
-```
-
-To run cypress:
-
-```sh
-npm cypress:open
-```
 
 ## Credits
+- Original code generated from [createapp.dev](https://createapp.dev/)
 
-Made with [createapp.dev](https://createapp.dev/)
+
+---
+
+![Screenshot](./screenshot.png)

@@ -1,0 +1,28 @@
+/*
+NOTES: 
+This classname will be transformed via webpack to something like "typed-module__typed-button__abc12". You can see this if you inspect the HTML
+Once you import it into your component, it'll be available with auto-complete as styles.typedButton
+*/
+.typed-button {
+  background-color: lightskyblue;
+  border-radius: 0.25rem;
+  border: 0px;
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: .375rem .75rem;
+}
+
+/*
+// NOTE: global CSS not allowed in a typed file...
+button {
+  Some code....
+}
+
+// NOTE: but you can do global CSS if it's wrapped in a class and uses the ":global" keyword...
+.app-component {
+  :global button {
+    Some code...
+  }
+}
+*/
